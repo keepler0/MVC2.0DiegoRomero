@@ -1,0 +1,39 @@
+﻿@model ShoeDetailVm
+
+<div>
+    <h4>Shoe's detail</h4>
+</div>
+<div>
+    <a class="btn btn-warning btn-sm" asp-controller="Shoes" asp-action="UpSert" asp-route-id="@Model.ShoeId">
+        <i class="bi bi-pencil-square"></i>&nbsp;
+        Edit
+    </a>
+    <a asp-action="Index" class="btn btn-success btn-sm">
+        <i class="bi bi-backspace"></i>&nbsp;
+        Back to List
+    </a>
+</div>
+<table class="table table-bordered table-hover mt-3">
+    <thead>
+        <tr>
+            <th style="width:auto">Brand</th>
+            <th style="width:auto">Model</th>
+            <th style="width:auto">Genre</th>
+            <th style="width:auto">Color</th>
+            <th style="width:auto">Sport</th>
+            <th style="width:auto">Price</th>
+            <th style="width:auto">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align: center">@Model.BrandName</td>
+            <td style="text-align: center">@Model.Model</td>
+            <td style="text-align: center">@Model.GenreName</td>
+            <td style="text-align: center">@Model.ColorName</td>
+            <td style="text-align: center">@Model.SportName</td>
+            <td style="text-align: center">@Model.Price.ToString("C2")</td>
+            <td style="text-align: center">@Model.Description</td>
+        </tr>
+    </tbody>
+</table>

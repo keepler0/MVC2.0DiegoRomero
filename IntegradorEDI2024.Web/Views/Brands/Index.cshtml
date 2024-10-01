@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Brand>
+@{
+	ViewData["Title"] = "Brands list";
+}
+<div class="row w-75 mb-4">
+	<div class="col-6"><h1>Brands list</h1></div>
+		<div class="col-6 text-end">
+			<a asp-controller="Brands" asp-action="UpSert" class="btn btn-primary">
+				<i class="bi bi-plus-square-fill"></i>
+				New brand
+				</a>
+		</div>
+</div>
+<table class="table table-bordered table-hover w-75">
+    <thead>
+		<tr>
+			<th class="w-50">Brand name</th>
+			<th class="w-25">Actions</th>
+		</tr>
+	</thead>
+	<tbody>
+		@if (Model.Any())
+		{
+			foreach (var item in Model)
+			{
+				<tr id="@item.BrandId">
+					<td>@item.BrandName</td>
+					<td class="text-center">
+						<a asp-controller="Brands" asp-action="UpSert" asp-route-id="@item.BrandId" class="btn btn-warning">
+						<i class="bi bi-pencil-square"></i>
+							Edit
+						</a>
+						<a onclick="Delete('/Brands/Delete/@item.BrandId',@item.BrandId,'@item.BrandName.Replace("'","\\'")')" class="btn btn-danger">
+						<i class="bi bi-trash"></i>
+							Delete
+						</a>
+					</td>
+				</tr>
+			}
+		}
+		else
+		{
+			<tr>
+				<td colspan="2">Sin datos</td>
+			</tr>
+		}
+	</tbody>
+</table>
+@section Scripts {
+
+		<script src="~/lib/jquery/dist/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+		<script src="~/js/common.js"></script>
+}

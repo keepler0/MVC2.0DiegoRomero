@@ -1,0 +1,45 @@
+﻿@model GenreEditVm
+@{
+	ViewData["Title"] = "New or Edit genre";
+}
+<form method="post" asp-controller="Genres" asp-action="UpSert">
+	<input type="hidden" asp-for="GenreId"/>
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">@(Model.GenreId == 0 ? "Adding new genre" : "Edit genre")</h2>
+		</div>
+		<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+		<div class="mb-3">
+			<label asp-for="GenreName">Genre name</label>
+			<input asp-for="GenreName" class="form-control" />
+			<span asp-validation-for="GenreName" class="text-danger"></span>
+
+		</div>
+
+		@if (Model.GenreId == 0)
+		{
+					<button type="-submit" class="btn btn-success">
+					<i class="bi bi-floppy"></i>
+						Save
+					</button>
+		}
+		else
+		{
+					<button type="-submit" class="btn btn-success">
+					<i class="bi bi-floppy"></i>
+						Edit
+					</button>
+		}
+
+		<a asp-controller="Genres" asp-action="Index" class="btn btn-info">
+			<i class="bi bi-x-square"></i>
+			Cancel
+		</a>
+
+	</div>
+</form>
+@section Scripts {
+	@{
+		<partial name="_ValidationScriptsPartial"/>
+	}
+}

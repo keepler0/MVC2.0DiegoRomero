@@ -1,0 +1,68 @@
+﻿@model BrandEditVm
+@{
+	ViewData["Title"] = "New or Edit brand";
+}
+<form method="post" asp-controller="Brands" asp-action="UpSert" enctype="multipart/form-data">
+	<input type="hidden" asp-for="BrandId"/>
+	<input type="hidden" asp-for="ImageUrl"/>
+
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">@(Model.BrandId==0?"Adding new brand":"Edit brand")</h2>
+		</div>
+		<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+		
+		<div class="row">
+			<div class="mt-2 py-2">
+				<label asp-for="BrandName">Brand name</label>
+				<input asp-for="BrandName" class="form-control" />
+				<span asp-validation-for="BrandName" class="text-danger"></span>
+			</div>
+			<div class="form-group py-2">
+						<label class="form-label text-center" asp-for="ImageUrl"></label>
+						<input type="file" class="form-control" asp-for="ImageFile"/>
+			</div>
+		</div>
+		<div class="col-4 text-center">
+			@if (!string.IsNullOrEmpty(Model.ImageUrl))
+			{
+						<img src="@Model.ImageUrl" style="width:350px; height:300px; border: 1px"/>
+						<div class="form-group py-2">
+							<label class="form-label text-center">Remove image</label>
+							<input type="checkbox" id="RemoveImage" name="RemoveImage" value="true"/>
+						</div>
+			}
+			else
+			{
+						<img src="~/images/SinImagen.jpg" style="width:280px; height:300px; border: 1px"/>
+
+			}
+			</div>
+		
+			@if (Model.BrandId==0)
+			{
+				<button type="-submit" class="btn btn-success">
+				<i class="bi bi-floppy"></i>
+					Save
+				</button>
+			}
+			else
+			{
+				<button type="-submit" class="btn btn-success">
+				<i class="bi bi-floppy"></i>
+					Edit
+				</button>
+			}
+			
+		<a asp-controller="Brands" asp-action="Index" class="btn btn-info">
+			<i class="bi bi-x-square"></i>
+			Cancel
+		</a>
+		
+	</div>
+</form>
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial"/>
+	}
+}

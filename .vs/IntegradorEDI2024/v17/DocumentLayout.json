@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\MVCDiegoRomero\\IntegradorEDI2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97603DA1-F1AC-4C70-823A-F6579B8BBEC1}|IntegradorEDI2024.Web\\IntegradorEDI2024.Web.csproj|C:\\Users\\diego\\OneDrive\\Escritorio\\MVCDiegoRomero\\IntegradorEDI2024\\integradoredi2024.web\\views\\brands\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97603DA1-F1AC-4C70-823A-F6579B8BBEC1}|IntegradorEDI2024.Web\\IntegradorEDI2024.Web.csproj|solutionrelative:integradoredi2024.web\\views\\brands\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97603DA1-F1AC-4C70-823A-F6579B8BBEC1}|IntegradorEDI2024.Web\\IntegradorEDI2024.Web.csproj|c:\\users\\diego\\onedrive\\escritorio\\mvcdiegoromero\\integradoredi2024\\integradoredi2024.web\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97603DA1-F1AC-4C70-823A-F6579B8BBEC1}|IntegradorEDI2024.Web\\IntegradorEDI2024.Web.csproj|solutionrelative:integradoredi2024.web\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97603DA1-F1AC-4C70-823A-F6579B8BBEC1}|IntegradorEDI2024.Web\\IntegradorEDI2024.Web.csproj|C:\\Users\\diego\\OneDrive\\Escritorio\\MVCDiegoRomero\\IntegradorEDI2024\\integradoredi2024.web\\viewmodels\\brand\\brandeditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97603DA1-F1AC-4C70-823A-F6579B8BBEC1}|IntegradorEDI2024.Web\\IntegradorEDI2024.Web.csproj|solutionrelative:integradoredi2024.web\\viewmodels\\brand\\brandeditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D1D558-4B4F-463E-BDEE-4B1C6EC6AE6D}|IntegradorEDI2024.Entidades\\IntegradorEDI2024.Entidades.csproj|C:\\Users\\diego\\OneDrive\\Escritorio\\MVCDiegoRomero\\IntegradorEDI2024\\integradoredi2024.entidades\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D1D558-4B4F-463E-BDEE-4B1C6EC6AE6D}|IntegradorEDI2024.Entidades\\IntegradorEDI2024.Entidades.csproj|solutionrelative:integradoredi2024.entidades\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Escritorio\\MVCDiegoRomero\\IntegradorEDI2024\\IntegradorEDI2024.Entidades\\Brand.cs",
+              "RelativeDocumentMoniker": "IntegradorEDI2024.Entidades\\Brand.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Escritorio\\MVCDiegoRomero\\IntegradorEDI2024\\IntegradorEDI2024.Entidades\\Brand.cs",
+              "RelativeToolTip": "IntegradorEDI2024.Entidades\\Brand.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:12:19.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BrandsController.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Escritorio\\MVCDiegoRomero\\IntegradorEDI2024\\IntegradorEDI2024.Web\\Controllers\\BrandsController.cs",
+              "RelativeDocumentMoniker": "IntegradorEDI2024.Web\\Controllers\\BrandsController.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Escritorio\\MVCDiegoRomero\\IntegradorEDI2024\\IntegradorEDI2024.Web\\Controllers\\BrandsController.cs",
+              "RelativeToolTip": "IntegradorEDI2024.Web\\Controllers\\BrandsController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAgwDUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:04:02.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BrandEditVm.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Escritorio\\MVCDiegoRomero\\IntegradorEDI2024\\IntegradorEDI2024.Web\\ViewModels\\Brand\\BrandEditVm.cs",
+              "RelativeDocumentMoniker": "IntegradorEDI2024.Web\\ViewModels\\Brand\\BrandEditVm.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Escritorio\\MVCDiegoRomero\\IntegradorEDI2024\\IntegradorEDI2024.Web\\ViewModels\\Brand\\BrandEditVm.cs",
+              "RelativeToolTip": "IntegradorEDI2024.Web\\ViewModels\\Brand\\BrandEditVm.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAiwBAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T07:52:29.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpSert.cshtml",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Escritorio\\MVCDiegoRomero\\IntegradorEDI2024\\IntegradorEDI2024.Web\\Views\\Brands\\UpSert.cshtml",
+              "RelativeDocumentMoniker": "IntegradorEDI2024.Web\\Views\\Brands\\UpSert.cshtml",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Escritorio\\MVCDiegoRomero\\IntegradorEDI2024\\IntegradorEDI2024.Web\\Views\\Brands\\UpSert.cshtml",
+              "RelativeToolTip": "IntegradorEDI2024.Web\\Views\\Brands\\UpSert.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T07:50:37.992Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

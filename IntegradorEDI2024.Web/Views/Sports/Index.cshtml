@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Sport>
+@{
+	ViewData["Title"] = "Sports list";
+}
+<div class="row w-75 mb-4">
+	<div class="col-6"><h1>Sport list</h1></div>
+		<div class="col-6 text-end">
+			<a asp-controller="Sports" asp-action="UpSert" class="btn btn-primary">
+				<i class="bi bi-plus-square-fill"></i>
+				New sport
+				</a>
+		</div>
+</div>
+<table class="table table-bordered table-hover w-75">
+	<thead>
+		<tr>
+			<th class="w-50">Sport name</th>
+			<th class="w-25">Actions</th>
+		</tr>
+	</thead>
+	<tbody>
+		@if (Model.Any())
+		{
+			foreach (var item in Model)
+			{
+						<tr id="@item.SportId">
+							<td>@item.SportName</td>
+							<td class="text-center">
+								<a asp-controller="Sports" asp-action="UpSert" asp-route-id="@item.SportId" class="btn btn-warning">
+								<i class="bi bi-pencil-square"></i>
+									Edit
+								</a>
+								<a onclick="Delete('/Sports/Delete/@item.SportId',@item.SportId,'@item.SportName')" class="btn btn-danger">
+								<i class="bi bi-trash"></i>
+									Delete
+								</a>
+							</td>
+						</tr>
+			}
+		}
+		else
+		{
+				<tr>
+					<td colspan="2">Sin datos</td>
+				</tr>
+		}
+	</tbody>
+</table>
+@section Scripts {
+
+			<script src="~/lib/jquery/dist/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+			<script src="~/js/common.js"></script>
+}

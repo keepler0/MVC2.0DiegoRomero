@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\IntegradorEDI2024.Web.props" />
+</Project>

@@ -1,0 +1,70 @@
+C:\Users\diego\Desktop\instituto\ASI 3 2024\EDI3\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Datos.deps.json
+C:\Users\diego\Desktop\instituto\ASI 3 2024\EDI3\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Datos.runtimeconfig.json
+C:\Users\diego\Desktop\instituto\ASI 3 2024\EDI3\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Datos.dll
+C:\Users\diego\Desktop\instituto\ASI 3 2024\EDI3\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Datos.pdb
+C:\Users\diego\Desktop\instituto\ASI 3 2024\EDI3\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Entidades.dll
+C:\Users\diego\Desktop\instituto\ASI 3 2024\EDI3\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Entidades.pdb
+C:\Users\diego\Desktop\instituto\ASI 3 2024\EDI3\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.csproj.AssemblyReference.cache
+C:\Users\diego\Desktop\instituto\ASI 3 2024\EDI3\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\Desktop\instituto\ASI 3 2024\EDI3\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\instituto\ASI 3 2024\EDI3\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.AssemblyInfo.cs
+C:\Users\diego\Desktop\instituto\ASI 3 2024\EDI3\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\instituto\ASI 3 2024\EDI3\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\Integrad.FF153E3B.Up2Date
+C:\Users\diego\Desktop\instituto\ASI 3 2024\EDI3\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.dll
+C:\Users\diego\Desktop\instituto\ASI 3 2024\EDI3\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\refint\IntegradorEDI2024.Datos.dll
+C:\Users\diego\Desktop\instituto\ASI 3 2024\EDI3\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.pdb
+C:\Users\diego\Desktop\instituto\ASI 3 2024\EDI3\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.genruntimeconfig.cache
+C:\Users\diego\Desktop\instituto\ASI 3 2024\EDI3\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\ref\IntegradorEDI2024.Datos.dll
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Datos.deps.json
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Datos.runtimeconfig.json
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Datos.dll
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Datos.pdb
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Entidades.dll
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Entidades.pdb
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.AssemblyInfoInputs.cache
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.AssemblyInfo.cs
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\Integrad.FF153E3B.Up2Date
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.dll
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\refint\IntegradorEDI2024.Datos.dll
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.pdb
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.genruntimeconfig.cache
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\ref\IntegradorEDI2024.Datos.dll
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Datos.deps.json
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Datos.runtimeconfig.json
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Datos.dll
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Datos.pdb
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Entidades.dll
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Entidades.pdb
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.AssemblyInfoInputs.cache
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.AssemblyInfo.cs
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.sourcelink.json
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\Integrad.FF153E3B.Up2Date
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.dll
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\refint\IntegradorEDI2024.Datos.dll
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.pdb
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.genruntimeconfig.cache
+C:\Users\diego\OneDrive\Escritorio\Trabajo integrador DiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\ref\IntegradorEDI2024.Datos.dll
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Datos.deps.json
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Datos.runtimeconfig.json
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Datos.dll
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Datos.pdb
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Entidades.dll
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\bin\Debug\net8.0\IntegradorEDI2024.Entidades.pdb
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.AssemblyInfoInputs.cache
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.AssemblyInfo.cs
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.sourcelink.json
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\Integrad.FF153E3B.Up2Date
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.dll
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\refint\IntegradorEDI2024.Datos.dll
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.pdb
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\IntegradorEDI2024.Datos.genruntimeconfig.cache
+C:\Users\diego\OneDrive\Escritorio\MVCDiegoRomero\IntegradorEDI2024\IntegradorEDI2024.Datos\obj\Debug\net8.0\ref\IntegradorEDI2024.Datos.dll

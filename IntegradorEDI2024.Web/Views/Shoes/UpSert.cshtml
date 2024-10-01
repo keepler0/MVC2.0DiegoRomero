@@ -1,0 +1,124 @@
+﻿@model ShoeEditVm
+@{
+	ViewData["Title"] = "New or Edit shoe";
+}
+@* TODO: debo editar el codigo ya que esta trabaja con el shoeEditVm *@
+<form method="post" asp-controller="Shoes" asp-action="UpSert" enctype="multipart/form-data">
+	@Html.AntiForgeryToken()
+	<input type="hidden" asp-for="ShoeId"/>
+	<input type="hidden" asp-for="ImageUrl"/>
+
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">@(Model.ShoeId == 0 ? "Adding new shoe" : "Edit shoe")</h2>
+		</div>
+		<div class="row">
+			<div class="col-8">
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<div class="row">
+					<div class="form-group col-6 py-2">
+						<label asp-for="BrandId">brand</label>
+						<select asp-for="BrandId" asp-items="Model.Brands" class="form-control">
+							<option selected disabled>
+								Select brand
+							</option>
+						</select>
+						<span asp-validation-for="BrandId" class="text-danger"></span>
+					</div>
+					<div class="form-group col-6 py-2">
+						<label asp-for="ColorId">Color</label>
+						<select asp-for="ColorId" asp-items="Model.Colors" class="form-control">
+							<option selected disabled>
+								Select color
+							</option>
+						</select>
+						<span asp-validation-for="ColorId" class="text-danger"></span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group col-6 py-2">
+						<label asp-for="GenreId">Genre</label>
+						<select asp-for="GenreId" asp-items="Model.Genres" class="form-control">
+							<option selected disabled>
+								Select genre
+							</option>
+						</select>
+						<span asp-validation-for="GenreId" class="text-danger"></span>
+					</div>
+					<div class="form-group col-6 py-2">
+						<label asp-for="SportId">Sport</label>
+						<select asp-for="SportId" asp-items="Model.Sports" class="form-control">
+							<option selected disabled>
+								Select sport
+							</option>
+						</select>
+						<span asp-validation-for="SportId" class="text-danger"></span>
+					</div>
+				</div>
+				<div class="mb-2">
+					<label asp-for="Model">Model</label>
+					<input asp-for="Model" class="form-control" />
+					<span asp-validation-for="Model" class="text-danger"></span>
+				</div>
+				<div class="mb-2">
+					<label asp-for="Description">Desciption</label>
+					<input asp-for="Description" class="form-control" />
+					<span asp-validation-for="Description" class="text-danger"></span>
+				</div>
+				<div class="mb-2">
+					<label asp-for="Price">Price</label>
+					<input asp-for="Price" class="form-control" type="number" min="0.05" max="1000000"/>
+					<span asp-validation-for="Price" class="text-danger"></span>
+				</div>
+			</div>
+			<div class="col-4 text-center">
+				@if (!string.IsNullOrEmpty(Model.ImageUrl))
+				{
+					<img src="@Model.ImageUrl" style="width:250px; height:300px; border: 1px"/>
+					<div class="form-group py-2"> @* manejo de las imagenes *@
+						<label class="form-label text-center">Remove image</label>
+						<input type="checkbox" id="RemoveImage" name="RemoveImage" value="true"/>
+					</div>
+				}
+				else
+				{
+					<img src="~/images/SinImagen.jpg" style="width:280px; height:300px; border: 1px"/>
+
+				}
+			</div>
+			<div>
+				<div class="form-group py-2">
+						<label class="form-label text-center" asp-for="ImageUrl"></label>
+						<input type="file" class="form-control" asp-for="ImageFile"/>
+				</div>
+			</div>
+		</div>
+		
+		
+		@if (Model.ShoeId == 0)
+		{
+					<button type="-submit" class="btn btn-success">
+					<i class="bi bi-floppy"></i>
+						Save
+					</button>
+		}
+		else
+		{
+					<button type="-submit" class="btn btn-success">
+					<i class="bi bi-floppy"></i>
+						Edit
+					</button>
+		}
+
+		<a asp-controller="Shoes" asp-action="Index" class="btn btn-info">
+			<i class="bi bi-x-square"></i>
+			Cancel
+		</a>
+
+	</div>
+</form>
+@section Scripts {
+	@{
+				<partial name="_ValidationScriptsPartial"/>
+	}
+}

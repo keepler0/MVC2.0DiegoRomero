@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IntegradorEDI2024.Datos\IntegradorEDI2024.Datos.csproj" />
+    <ProjectReference Include="..\IntegradorEDI2024.Entidades\IntegradorEDI2024.Entidades.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,187 @@
+﻿@model ShoeFilterVm
+@{
+    ViewData["Title"] = "Shoes list";
+}
+<div class="row w-115 mb-4">
+    <div class="col-6">
+        <h1>Shoes list</h1>
+    </div>
+    <div class="col-16 text-end">
+        <a asp-controller="Shoes" asp-action="UpSert" class="btn btn-primary">
+            <i class="bi bi-plus-square-fill"></i>
+            New shoe
+        </a>
+    </div>
+</div>
+<form method="get" class="form-inline" asp-action="Index">
+    <div class="d-flex flex-row align-items-center">
+        <div class="col-auto mx-1">
+            @* <label for="pageSize">Show:</label> *@
+        </div>
+        <div class="col-auto mx-2">
+            @* <select class="form-select" id="pageSize" name="pageSize" onchange="this.form.submit()">
+                @{
+                    var options = new List<int> { 5, 10, 15, 20 };
+                    foreach (var option in options)
+                    {
+                        <option value="@option">@option</option>
+                    }
+                }
+            </select> *@
+        </div>
+
+        <div class="row d-flex align-items-center">
+            <div class="col-auto mx-1">
+                <strong>Filter:</strong>
+            </div>
+            <div class="col-auto mx-1" style="width: 120px;">
+                <select class="form-select" name="FilterBrandId" id="FilterBrandId">
+                    <option disabled selected value="0">Brand</option>
+                    @{
+                        foreach (var item in Model.Brands!)
+                        {
+                            if (ViewBag.currentFilterBrandId == int.Parse(item.Value))
+                            {
+                                            <option selected value="@item.Value">@item.Text</option>
+                            }
+                            else
+                            {
+                                            <option value="@item.Value">@item.Text</option>
+                            }
+                        }
+                    }
+                </select>
+            </div>
+            <div class="col-auto mx-1" style="width: 120px;">
+                <select class="form-select" name="FilterGenreId" id="FilterGenreId">
+                    <option disabled selected value="0">Genre</option>
+                    @{
+                        foreach (var item in Model.Genres!)
+                        {
+                            if (ViewBag.currentFilterGenreId == int.Parse(item.Value))
+                            {
+                                            <option selected value="@item.Value">@item.Text</option>
+                            }
+                            else
+                            {
+                                            <option value="@item.Value">@item.Text</option>
+                            }
+                        }
+                    }
+                </select>
+            </div>
+            <div class="col-auto mx-1" style="width: 120px;">
+                <select class="form-select" name="FilterColorId" id="FilterColorId">
+                    <option disabled selected value="0">Color</option>
+                    @{
+                        foreach (var item in Model.Colors!)
+                        {
+                            if (ViewBag.currentFilterColorId == int.Parse(item.Value))
+                            {
+                                            <option selected value="@item.Value">@item.Text</option>
+                            }
+                            else
+                            {
+                                            <option value="@item.Value">@item.Text</option>
+                            }
+                        }
+                    }
+                </select>
+            </div>
+            <div class="col-auto mx-1" style="width: 120px;">
+                <select class="form-select" name="FilterSportId" id="FilterSportId">
+                    <option disabled selected value="0">Sport</option>
+                    @{
+                        foreach (var item in Model.Sports!)
+                        {
+                            if (ViewBag.currentFilterSportId == int.Parse(item.Value))
+                            {
+                                            <option selected value="@item.Value">@item.Text</option>
+                            }
+                            else
+                            {
+                                            <option value="@item.Value">@item.Text</option>
+                            }
+                        }
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="col-auto mx-4" style="width: 120px;">
+            <input type="text" name="searchTerm" id="searchTerm" class="form-control" placeholder="Search by..." value="@ViewBag.currentSearchTerm" />
+        </div>
+        <div class="col-auto mx-2">
+            <strong>Order by:</strong>
+        </div>
+        <div class="col-auto">
+            <select class="form-select" id="orderBy" name="orderBy" onchange="this.form.submit()">
+                <option selected="@(ViewBag.currentOrderBy=="Brand"?"selected":null)" value="Brand">Band</option>
+                <option selected="@(ViewBag.currentOrderBy=="Model"?"selected":null)" value="Model">Model</option>
+                <option selected="@(ViewBag.currentOrderBy=="HighToLow"?"selected":null)" value="HighToLow">High to low</option>
+                <option selected="@(ViewBag.currentOrderBy=="LowToHigh"?"selected":null)" value="LowToHigh">Low to high</option>
+
+                @* <option value="HighToLow">High to low</option>
+                <option value="LowToHigh">Low to high</option> *@
+            </select>
+        </div>
+        <div class="col-auto d-flex">
+            <button type="submit" class="btn btn-primary mx-2">
+                <i class="bi bi-search"></i>
+                Search
+            </button>
+            <button type="submit" class="btn btn-secondary" id="viewAll" name="viewAll" value="true">
+                <i class="bi bi-list"></i>
+                View all
+            </button>
+        </div>
+    </div>
+</form>
+<table class="table table-bordered table-hover w-65 mt-3">
+    <thead>
+        <tr>
+            <th class="w-15">Brand</th>
+            <th class="w-15">Model</th>
+            <th class="w-5">Price</th>
+            <th class="w-30">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.ShoesListVm.Any())
+        {
+            foreach (var item in Model.ShoesListVm)
+            {
+                        <tr id="@item.ShoeId">
+                            <td style="text-align: center">@item.BrandName</td>
+                            <td style="text-align: center">@item.Model</td>
+                            <td style="text-align: center">@item.Price</td>
+                            <td class="text-center">
+                                <a asp-controller="Shoes" asp-action="Details" asp-route-id="@item.ShoeId" class="btn btn-warning">
+                                    <i class="bi bi-plus-square-fill"></i>
+                                    Show details
+                                </a>
+                                <a asp-controller="Shoes" asp-action="UpSert" asp-route-id="@item.ShoeId" class="btn btn-warning">
+                                    <i class="bi bi-pencil-square"></i>
+                                    Edit
+                                </a>
+                                <a onclick="Delete('/Shoes/Delete/@item.ShoeId', @item.ShoeId, '@item.Name')" class="btn btn-danger">
+                                    <i class="bi bi-trash"></i>
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+            }
+        }
+        else
+        {
+                <tr>
+                    <td colspan="4">Sin datos</td>
+                </tr>
+        }
+    </tbody>
+</table>
+@section Scripts {
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+        <script src="~/js/common.js"></script>
+}
